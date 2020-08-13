@@ -1,0 +1,36 @@
+import dotenv from "dotenv";
+dotenv.config();
+
+const {
+  NODE_ENV,
+  PORT,
+  SHOPIFY_API_SECRET,
+  SHOPIFY_API_KEY,
+  SCOPES,
+  HOST,
+  DB_NAME,
+  DB_HOST,
+  DB_PORT,
+  DB_USER,
+  DB_PASSWORD,
+  MAILGUN_API_KEY,
+  MAILGUN_DOMAIN,
+  MAILGUN_FROM_EMAIL,
+} = process.env;
+
+export {
+  NODE_ENV,
+  PORT,
+  SHOPIFY_API_SECRET,
+  SHOPIFY_API_KEY,
+  SCOPES,
+  HOST,
+  DB_NAME,
+  DB_HOST,
+  DB_PORT,
+  DB_USER,
+  DB_PASSWORD,
+  MAILGUN_API_KEY,
+  MAILGUN_DOMAIN,
+  MAILGUN_FROM_EMAIL,
+};

@@ -1,0 +1,158 @@
+const ACTIVE = "Active",
+  REACHED = "Reached",
+  FAILED = "Failed",
+  EXPIRED = "Expired",
+  CANCELED = "Canceled";
+const PRODUCT = "Product",
+  ORDER = "Order",
+  SALES = "Sales",
+  TRAFFIC = "Traffic",
+  TYPES = [SALES, PRODUCT, TRAFFIC],
+  MONTH = "Month",
+  WEEK = "Week",
+  DAY = "Day",
+  DATETYPES = [MONTH, WEEK, DAY],
+  SPECIFIC = "Specific",
+  PERIODIC = "Periodic",
+  NOPERIOD = "NoPeriod",
+  RANGE = "Range",
+  PERIODTYPES = [SPECIFIC, PERIODIC, NOPERIOD, RANGE];
+const BRONZE = "Bronze",
+  BRONZE_MILESTONES = 3,
+  BRONZE_EMAILS = 2,
+  SILVER = "Silver",
+  SILVER_MILESTONES = 5,
+  SILVER_EMAILS = 3,
+  GOLD = "Gold",
+  PLUS = "Plus";
+const PENDING = "Pending",
+  APPROVED = "Approved",
+  DECLINED = "Declined";
+const INIT_TEMPLATE = {
+  counters: {
+    u_column: 1,
+    u_row: 1,
+    u_content_text: 1,
+  },
+  body: {
+    rows: [
+      {
+        cells: [1],
+        columns: [
+          {
+            contents: [
+              {
+                type: "text",
+                values: {
+                  containerPadding: "10px",
+                  _meta: {
+                    htmlID: "u_content_text_1",
+                    htmlClassNames: "u_content_text",
+                  },
+                  selectable: true,
+                  draggable: true,
+                  deletable: true,
+                  color: "#000000",
+                  textAlign: "left",
+                  lineHeight: "140%",
+                  linkStyle: {
+                    inherit: true,
+                    linkColor: "#0000ee",
+                    linkHoverColor: "#0000ee",
+                    linkUnderline: true,
+                    linkHoverUnderline: true,
+                  },
+                  text: `<p style="font-size: 14px; line-height: 140%;">
+                      <strong data-tip="hello world">Hey {{customer}}!</strong></p>\n
+                      <p style="font-size: 14px; line-height: 140%;">&nbsp;</p>\n
+                      <p style="font-size: 14px; line-height: 140%;">&nbsp;</p>\n
+                      <p style="font-size: 14px; line-height: 140%;">Thanks for shopping with Bad Daddy Apparel. You\'re receiving this email because, unbeknownst to you, we\'ve been running a little contest here internally--and YOU just helped us reach a major milestone! YEAH! As a token of our appreciation, please use code <strong><em>DISCOUNT30</em></strong> for 30% off your next purchase. (Who knows, we might even throw in a free gift too--we\'re THAT excited.)</p>\n<p style="font-size: 14px; line-height: 140%;">&nbsp;</p>\n<p style="font-size: 14px; line-height: 140%;">Thank you for your loyalty <strong>{{customer}}</strong>!</p>\n<p style="font-size: 14px; line-height: 140%;">Hope to see you again soon.</p>\n<p style="font-size: 14px; line-height: 140%;">&nbsp;</p>\n<p style="font-size: 14px; line-height: 140%;">&nbsp;</p>\n<p style="font-size: 14px; line-height: 140%;"><em>Cheers, </em></p>\n<p style="font-size: 14px; line-height: 140%;"><em>The Bad Daddy Team</em></p>`,
+                },
+              },
+            ],
+            values: {
+              backgroundColor: "",
+              padding: "0px",
+              border: {},
+              _meta: { htmlID: "u_column_1", htmlClassNames: "u_column" },
+            },
+          },
+        ],
+        values: {
+          columns: false,
+          backgroundColor: "",
+          columnsBackgroundColor: "",
+          backgroundImage: {
+            url: "",
+            fullWidth: true,
+            repeat: false,
+            center: true,
+            cover: false,
+          },
+          padding: "0px",
+          hideDesktop: false,
+          hideMobile: false,
+          noStackMobile: false,
+          _meta: { htmlID: "u_row_1", htmlClassNames: "u_row" },
+          selectable: true,
+          draggable: true,
+          deletable: true,
+        },
+      },
+    ],
+    values: {
+      backgroundColor: "#e7e7e7",
+      backgroundImage: {
+        url: "",
+        fullWidth: true,
+        repeat: false,
+        center: true,
+        cover: false,
+      },
+      contentWidth: "500px",
+      fontFamily: { label: "Arial", value: "arial,helvetica,sans-serif" },
+      linkStyle: {
+        body: true,
+        linkColor: "#0000ee",
+        linkHoverColor: "#0000ee",
+        linkUnderline: true,
+        linkHoverUnderline: true,
+      },
+      _meta: { htmlID: "u_body", htmlClassNames: "u_body" },
+    },
+  },
+};
+
+export {
+  ACTIVE,
+  REACHED,
+  FAILED,
+  EXPIRED,
+  CANCELED,
+  PRODUCT,
+  ORDER,
+  SALES,
+  TRAFFIC,
+  TYPES,
+  MONTH,
+  WEEK,
+  DAY,
+  DATETYPES,
+  SPECIFIC,
+  PERIODIC,
+  NOPERIOD,
+  RANGE,
+  PERIODTYPES,
+  BRONZE,
+  BRONZE_MILESTONES,
+  BRONZE_EMAILS,
+  SILVER_MILESTONES,
+  SILVER_EMAILS,
+  SILVER,
+  GOLD,
+  PLUS,
+  INIT_TEMPLATE,
+  PENDING,
+  APPROVED,
+  DECLINED,
+};

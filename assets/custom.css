@@ -1,0 +1,384 @@
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
+.pr-32 {
+  padding-right: 32px;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.px-128 {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.py-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.px-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.m-16 {
+  margin: 16px !important;
+}
+
+.mr-16 {
+  margin-right: 16px !important;
+}
+
+.mr-32 {
+  margin-right: 32px !important;
+}
+
+.mx-52 {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mx-0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.mx-16 {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+.m-32 {
+  margin: 32px !important;
+}
+
+.my-0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.my-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.my-16 {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.border {
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 4px;
+}
+
+.email-editor {
+  border: 1px solid #c4cdd5;
+  border-radius: 2px;
+  margin-top: 0.4rem;
+}
+
+.border-x {
+  border-left: 1px solid rgb(169, 169, 169);
+  border-right: 1px solid rgb(169, 169, 169);
+}
+
+.active-milestones-icon-outer {
+  height: 32px;
+  width: 32px;
+  background-color: #b6eceb;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.active-milestones-icon-inner {
+  height: 22px;
+  width: 22px;
+  background-color: #007ace;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.active-milestones-icon-core {
+  height: 18px;
+  width: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.text-vertical-center {
+  align-self: center;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 2px solid gainsboro;
+  max-width: 40px;
+  text-align: center;
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Roboto,
+    Segoe UI, Helvetica Neue, sans-serif;
+  font-size: 1.4rem;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.form-input--large {
+  max-width: 100px;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.slick-dots li button:before {
+  font-size: 24px !important;
+}
+
+.slick-dots li {
+  margin: 0px !important;
+}
+
+.slider-container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 13px !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 24px !important;
+  line-height: 24px !important;
+  font-size: 11px !important;
+}
+
+.rounded-img {
+  vertical-align: middle;
+  margin-right: 2rem;
+  border-radius: 5px;
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.align-bottom {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Sub-Polaris-Card__Header {
+  padding-bottom: 1rem;
+  color: #212b36;
+  border-bottom: 1px solid #dfe3e8;
+}
+
+.Sub-Polaris-List {
+  padding-left: 0px;
+  min-height: 180px;
+}
+
+.Sub-Polaris-List__Item {
+  list-style: none;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.Sub-Polaris-Card__Footer {
+  border-top: 1px solid #dfe3e8;
+}
+
+.Polaris-Footer-Heading {
+  margin: 1rem 0;
+}
+
+.Polaris-Stack.Polaris-Stack--distributionFillEvenly.Subscription-Stack
+  .Polaris-Stack__Item {
+  min-width: min-content;
+}
+
+.fulfilled-icon svg {
+  margin-top: 10px;
+}
+
+.offer-badge {
+  font-size: 11px;
+  color: #f4f6f8;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background-color: #da9b22;
+  float: right;
+  line-height: 11px;
+  margin-top: 3px;
+}
+
+.gold-card {
+  box-shadow: 0 1px 3px 2px #da9b22;
+}
+
+.reached-progress {
+  background: #bbe5b3;
+}
+
+.text-wrapper {
+  text-align: center;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.milestone-verbiage {
+  line-height: 32px;
+}
+
+.banner-author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 46.5em) {
+  .sm-ml-auto {
+    margin-left: auto;
+  }
+
+  .sm-my-16 {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .slider-container {
+    width: auto;
+  }
+
+  .Polaris-Page__Content {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+
+  .Polaris-EmptyState--withinPage .Polaris-EmptyState__Details {
+    padding: 0px;
+    width: calc(100% - 25px);
+  }
+
+  .Polaris-Stack--distributionFillEvenly.set-goals > .Polaris-Stack__Item {
+    min-width: unset;
+  }
+
+  .Polaris-Stack--distributionFillEvenly.track-goals > .Polaris-Stack__Item {
+    min-width: unset;
+  }
+
+  .Polaris-Stack.Polaris-Stack--distributionFillEvenly.Subscription-Stack
+    .Polaris-Stack__Item {
+    min-width: max-content;
+  }
+
+  .fulfilled-icon svg {
+    margin-top: unset;
+  }
+
+  .Sub-Polaris-List {
+    min-height: 110px;
+  }
+
+  .mx-52 {
+    margin-right: unset;
+  }
+
+  .milestone-verbiage {
+    line-height: unset;
+  }
+}
